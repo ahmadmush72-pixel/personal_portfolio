@@ -40,7 +40,7 @@ export default function Feature_Work() {
     active === "All" ? projects : projects.filter((p) => p.category === active);
 
   return (
-    <section className="w-full mt-6 sm:mt-8 md:mt-10 lg:mt-12 px-4 sm:px-6 md:px-8 lg:px-10">
+    <section id="projects" className="w-full mt-6 sm:mt-8 md:mt-10 lg:mt-12 px-4 sm:px-6 md:px-8 lg:px-10">
       <div className="max-w-full">
         {/* Header & Navigation */}
         <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start gap-6 lg:gap-0 mb-8 sm:mb-10 md:mb-12">

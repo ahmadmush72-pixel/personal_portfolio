@@ -13,12 +13,11 @@ function App() {
   return (
     <main>
       <Navbar />
-      <HeroSection />
+      <HeroSection id="home" />
       <Experience />
-      <Tech_Aresnal />
-      <Career_timeline />
-      <Feature_Work />
       <Education_Certification />
+      <Tech_Aresnal />
+      <Feature_Work />
       <hr />
       <Contact />
       <hr />

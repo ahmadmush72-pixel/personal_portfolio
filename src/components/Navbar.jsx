@@ -63,7 +63,7 @@ export default function Navbar() {
       {/* CTA & Theme & Mobile Menu Button */}
       <div className="flex items-center gap-2 sm:gap-3 lg:gap-5 flex-shrink-0">
         <Button
-          className="hidden sm:block bg-primary font-xs sm:font-sm md:font-md text-foreground hover:text-primary px-2 sm:px-4 py-1 sm:py-2 text-xs sm:text-sm"
+          className="hidden sm:block bg-primary font-xs sm:font-sm md:font-md text-foreground hover:text-white px-2 sm:px-4 py-1 sm:py-2 text-xs sm:text-sm"
           size="sm"
         >
           HIRE ME

@@ -4,7 +4,7 @@ import assets from "@/assets/assets";
 
 export default function HeroSection() {
   return (
-    <section className="relative overflow-hidden z-10 min-h-screen flex flex-col lg:flex-row justify-center lg:justify-between items-center py-8 sm:py-12 md:py-16 lg:py-0 px-4 sm:px-6 md:px-8 lg:px-12">
+    <section id="home" className="relative overflow-hidden z-10 min-h-screen flex flex-col lg:flex-row justify-center lg:justify-between items-center py-8 sm:py-12 md:py-16 lg:py-0 px-4 sm:px-6 md:px-8 lg:px-12">
       {/* Background Gradients */}
       <div className="w-80 h-80 sm:w-96 sm:h-96 md:w-[500px] md:h-[500px] bg-primary/30 rounded-full absolute right-0 top-0 -z-10 blur-2xl"></div>
       <div className="w-64 h-64 sm:w-80 sm:h-80 md:w-[400px] md:h-[400px] bg-primary/20 rounded-full absolute -left-10 sm:-left-20 top-0 -z-10 blur-2xl"></div>

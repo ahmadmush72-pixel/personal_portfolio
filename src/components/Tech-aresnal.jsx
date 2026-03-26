@@ -31,7 +31,7 @@ export default function Tech_Aresnal() {
     },
   ];
   return (
-    <section className="w-full overflow-hidden relative py-8 sm:py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8 lg:px-12">
+    <section id="skills" className="w-full overflow-hidden relative py-8 sm:py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8 lg:px-12">
       {/* Title */}
       <div className="flex justify-center mb-8 sm:mb-12 md:mb-16">
         <h1 className="font-black text-2xl sm:text-3xl md:text-4xl text-center">

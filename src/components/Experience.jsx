@@ -1,5 +1,6 @@
 import React from "react";
 import { Compass, Code2, Cloud, Zap } from "lucide-react";
+import Career_timeline from "./Career_timeline";
 
 export default function Experience() {
   const designs = [
@@ -25,7 +26,7 @@ export default function Experience() {
     },
   ];
   return (
-    <section className="relative overflow-hidden w-full py-8 sm:py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8 lg:px-12">
+    <section id="about" className="relative overflow-hidden w-full py-8 sm:py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8 lg:px-12">
       <div className="flex flex-col lg:flex-row gap-8 md:gap-12 lg:gap-16">
         {/* Left Content */}
         <div className="flex-1">
@@ -85,6 +86,7 @@ export default function Experience() {
           ))}
         </div>
       </div>
+       <Career_timeline />
     </section>
   );
 }

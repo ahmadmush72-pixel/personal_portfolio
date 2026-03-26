@@ -3,7 +3,10 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <section className="flex flex-col md:flex-row justify-between items-start px-4 sm:px-6 py-8 sm:py-10 gap-8">
+    <section
+      id="contact"
+      className="flex flex-col md:flex-row justify-between items-start px-4 sm:px-6 py-8 sm:py-10 gap-8"
+    >
       <div className="px-0 sm:px-6 flex-1 min-w-0">
         <div>
           <h1 className="text-4xl font-black ">
@@ -126,7 +129,10 @@ export default function Contact() {
           />
         </div>
         <div className="flex justify-end px-0 sm:px-7 pb-6">
-          <button type="submit" className="bg-primary text-white font-bold py-2 px-6 rounded-md shadow hover:bg-primary/80 transition-colors">
+          <button
+            type="submit"
+            className="bg-primary text-white font-bold py-2 px-6 rounded-md shadow hover:bg-primary/80 transition-colors"
+          >
             Send Message
           </button>
         </div>

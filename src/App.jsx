@@ -13,7 +13,7 @@ function App() {
   return (
     <main>
       <Navbar />
-      <HeroSection id="home" />
+      <HeroSection />
       <Experience />
       <Education_Certification />
       <Tech_Aresnal />
